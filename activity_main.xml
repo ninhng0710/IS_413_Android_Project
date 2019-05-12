@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent"
+        android:padding="10dp"
+        tools:context=".MainActivity">
+
+
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number|numberDecimal"
+            android:ems="10"
+            android:hint="height (cm)"
+            android:id="@+id/height"/>
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number|numberDecimal"
+            android:hint="weight (kg)"
+            android:ems="10"
+            android:id="@+id/weight"/>
+    <Button
+            android:text="CALCULATE BMI"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/calculate"/>
+    <TextView
+            android:text=""
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:textSize="24dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/result"/>
+</LinearLayout>
