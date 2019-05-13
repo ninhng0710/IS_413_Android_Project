@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout
         xmlns:android="http://schemas.android.com/apk/res/android"
-        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
         android:orientation="vertical"
         android:layout_height="match_parent"
@@ -9,29 +9,34 @@
         tools:context=".MainActivity">
 
 
+    <ImageView
+            android:layout_width="220dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/body_icon" android:id="@+id/imageView"/>
+    <TextView
+            android:text=""
+            android:layout_margin="30dp"
+            android:gravity="center"
+            android:textSize="24dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/result"/>
     <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:inputType="number|numberDecimal"
             android:ems="10"
-            android:hint="height (cm)"
+            android:hint="height (in)"
             android:id="@+id/height"/>
     <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:inputType="number|numberDecimal"
-            android:hint="weight (kg)"
+            android:hint="weight (lb)"
             android:ems="10"
             android:id="@+id/weight"/>
     <Button
             android:text="CALCULATE BMI"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" android:id="@+id/calculate"/>
-    <TextView
-            android:text=""
-            android:layout_marginTop="20dp"
-            android:gravity="center"
-            android:textSize="24dp"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content" android:id="@+id/result"/>
 </LinearLayout>
