@@ -36,10 +36,10 @@ public class MainActivity extends AppCompatActivity {
         String weightStr = weight.getText().toString();
 
         if(heightStr != null && !"".equals(heightStr) && weightStr != null && !"".equals(weightStr)){
-            float heightValue = Float.parseFloat(heightStr) / 100;
+            float heightValue = Float.parseFloat(heightStr); //Float.parseFloat(heightStr) / 100; <--was this for cm and kg
             float weightValue = Float.parseFloat(weightStr);
 
-            float bmi = weightValue / (heightValue * heightValue);
+            float bmi = (weightValue / (heightValue * heightValue)) * 703; //float bmi = weightValue / (heightValue * heightValue); <-- was this for cm and kg
 
             displayBMI(bmi);
         }
@@ -65,6 +65,7 @@ public class MainActivity extends AppCompatActivity {
         } else {
             bmiLabel = "Obese class III";
         }
+
 
         String newLine = System.getProperty("line.separator");
         bmiLabel = "BMI: " + bmi + newLine + "Weight Status: " + bmiLabel;
