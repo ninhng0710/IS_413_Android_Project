@@ -67,7 +67,7 @@ public class MainActivity extends AppCompatActivity {
         }
 
         String newLine = System.getProperty("line.separator");
-        bmiLabel = "BMI: " + bmi + newLine + bmiLabel;
+        bmiLabel = "BMI: " + bmi + newLine + "Weight Status: " + bmiLabel;
         result.setText(bmiLabel);
     }
 }
