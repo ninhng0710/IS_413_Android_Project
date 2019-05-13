@@ -49,24 +49,25 @@ public class MainActivity extends AppCompatActivity {
         String bmiLabel = "";
 
         if(Float.compare(bmi, 15f) <= 0) {
-            bmiLabel = "very severely underweight";
+            bmiLabel = "Very severely underweight";
         } else if(Float.compare(bmi, 15f) > 0 && Float.compare(bmi, 16f) <=0){
-            bmiLabel = "severely underweight";
+            bmiLabel = "Severely underweight";
         } else if(Float.compare(bmi, 16f) > 0 && Float.compare(bmi, 18.5f) <=0){
-            bmiLabel = "underweight";
+            bmiLabel = "Underweight";
         } else if(Float.compare(bmi, 18.5f) > 0 && Float.compare(bmi, 25f) <=0){
-            bmiLabel = "normal";
+            bmiLabel = "Normal";
         } else if(Float.compare(bmi, 25f) > 0 && Float.compare(bmi, 30f) <=0){
-            bmiLabel = "overweight";
+            bmiLabel = "Overweight";
         } else if(Float.compare(bmi, 30f) > 0 && Float.compare(bmi, 35f) <=0){
-            bmiLabel = "obese class I";
+            bmiLabel = "Obese class I";
         } else if(Float.compare(bmi, 35f) > 0 && Float.compare(bmi, 40f) <=0){
-            bmiLabel = "obese class II";
+            bmiLabel = "Obese class II";
         } else {
-            bmiLabel = "obese class III";
+            bmiLabel = "Obese class III";
         }
 
-        bmiLabel = bmi + "/n" + bmiLabel;
+        String newLine = System.getProperty("line.separator");
+        bmiLabel = bmi + newLine + bmiLabel;
         result.setText(bmiLabel);
     }
 }
