@@ -1,0 +1,63 @@
+<resources>
+    <string name="app_name">project_take1</string>
+    <string name="splashText">TeamFlex</string>
+    <string name="homeWorkout">Select Your Workout</string>
+    <string name="homeCalorie">Calculate Calories</string>
+    <string name="homeBMI">Calculate BMI</string>
+    <string name="workoutSelect">Select Workout</string>
+    <string name="addWorkout">Add Workout</string>
+    <string name="btnCalculate">Calculate</string>
+    <string name="findRecipe">Look at Dinner Recipes</string>
+    <string name="benchPress">Bench Press Image</string>
+    <string name="backSquat">Back Squat Image</string>
+    <string name="deadLift">Dead Lift Image</string>
+    <string-array name="txtWorkouts">
+        <item>Bench Press</item>
+        <item>Back Squat</item>
+        <item>Dead Lift</item>
+    </string-array>
+    <string name="txtExercises">Select a Workout</string>
+    <string name="txtSelect">Workout Options</string>
+    <string name="benchDescription">Bench Press</string>
+    <string name="squatDesciption">Back Squat</string>
+    <string name="deadLiftDescription">Dead Lift</string>
+    <string name="bpStep1">1. Lie on the bench with eyes under the bar</string>
+    <string name="bpStep2">2. Grab the bar with pinky\'s on the rings</string>
+    <string name="bpStep3">3. Unrack the bar by straightening your arms</string>
+    <string name="bpStep4">4. Lower the bar to your mid chest</string>
+    <string name="bpStep5">5. Press the bar back up until your arms are straight</string>
+    <string name="pullDescription">Pull Up</string>
+    <string name="dlStep1">1. Walk to bar with mid foot under the bar</string>
+    <string name="dlStep2">2. Grab the bar and bend down without bending your legs</string>
+    <string name="dlStep3">3. Bend your knees until your shins touch the bar</string>
+    <string name="dlStep4">4. Straighten your back by raising your chest</string>
+    <string name="dlStep5">5. Pull the bar up until standing straight</string>
+    <string name="puStep1">1. Grab the bar shoulder width apart</string>
+    <string name="puStep2">2. Raise your feet off the ground by bending your knees</string>
+    <string name="puStep3">3. Pull yourself up by pulling your elbows down to the ground</string>
+    <string name="puStep4">4. Pass the bar and comeback down</string>
+    <string-array name="breakfast_options">
+        <item>1 Cup of Oatmeal</item>
+        <item>Granola Bar</item>
+        <item>2 Hard Boiled Eggs</item>
+    </string-array>
+    <string-array name="lunch_options">
+        <item>Shrimp Alfredo Lean Cuisine</item>
+        <item>Veggie and Hummus Sandwich</item>
+        <item>Chicken Avocado BLT</item>
+    </string-array>
+    <string-array name="dinner_options">
+        <item>Cauliflower Chicken Chili</item>
+        <item>Steak and Eggs</item>
+        <item>Chicken and Asparagus Lemon Stir-Fry</item>
+    </string-array>
+    <string-array name="workouts">
+        <item>sit-ups</item>
+        <item>push-ups</item>
+        <item>squats</item>
+    </string-array>
+    <string name="brek">Breakfast</string>
+    <string name="lunch">Lunch</string>
+    <string name="dinner">Dinner</string>
+    <string name="calTitle">Calculate Calories</string>
+</resources>
